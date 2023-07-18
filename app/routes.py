@@ -97,6 +97,6 @@ def show_weather(id):
     # print(forecast)
 
     if apt:
-        return render_template('apt.html',apt=apt, forecast=forecast)
+        return render_template('apt.html', apt=apt, forecast=forecast)
     else:
         return '<h1>Appointment not Found</h1>'
